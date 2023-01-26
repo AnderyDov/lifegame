@@ -1,11 +1,13 @@
 .poligon {
-    width: 90%;
+    height: 90%;
     aspect-ratio: 1 / 1;
-    border: 2px solid var(--green);
+    outline: 1px solid var(--green);
+    padding: 1%;
 }
 .cell {
     display: inline-block;
-    width: 5%;
-    padding: 1%;
+    width: 4%;
+    height: 4%;
+    padding: 0.4%;
     outline: 0.1px dashed var(--gray-dark);
 }
